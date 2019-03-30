@@ -18,4 +18,8 @@ class Test(TestBase) :
         print("Test LinkedIn")
         assert "google" == self.driver.title.lower()
 
+    def test_linkedin_1(self):
+        print("Test LinkedIn_1")
+        assert "google" == self.driver.title.lower()
+
 
